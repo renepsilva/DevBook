@@ -1,0 +1,34 @@
+.topicos{
+    background: var(--background-gradient);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 2.5em;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.topicos-categorias{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: center;
+    margin: 0.5em;
+}
+
+.botao-topicos{
+    background-color: var(--cor-branco);
+    padding: 0.5em;
+    margin: 0.5em;
+    align-items: center;
+    color: var(--tittle-color);
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+@media screen and (min-width: 1024px){
+    .topicos{
+        font-size: 1.5em;
+    }
+}

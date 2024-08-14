@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>DevBook</title>
+
+</head>
+<header class="cabecalho">
+
+    <div class="container">
+        <input type="checkbox" id="menu" class="container_botao">
+        <label for="menu">
+            <span class="cabecalho_menu-hamburguer container_imagem"></span>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu-titulo">Categorias</li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">Mangás</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">Romance</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">Literatura</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">Gestão e Finanças</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">Biografias</a>
+            </li>
+        </ul>
+        <img src="logo-dev-book.svg" alt="logo devbook's" class="container_imagem">
+    </div>
+
+    <ul class="opcoes">
+        <input type="checkbox" id="opcoes-categoria" class="opcoes-botao">
+        <label for="opcoes-categoria">
+            <li class="opcoes-header" href="#">Categorias</li>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">Mangás</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">Romance</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">Literatura</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">Gestão e Finanças</a>
+            </li>
+            <li class="lista-menu-item">
+                <a href="#" class="lista-menu-link">Biografias</a>
+            </li>
+        </ul>
+        <li class="opcoes-header" href="#">Favoritos</li>
+        <li class="opcoes-header" href="#">Minha Estante</li>
+    </ul>
+
+    <div class="container">
+        <a href="a"> <img src="Favoritos.svg" alt="Logo favoritos"
+                class="container_imagem container-imagem-fav"></a>
+        <a href="a" class="container__texto">
+            <img src="Compras.svg" alt="Logo compras" class="container_imagem">
+            <p class="container_texto">Minha sacola</p>
+        </a>
+        <a href="a" class="container__texto">
+            <img src="Usuario.svg" alt="" class="container_imagem">
+            <p class="container_texto">Meu Perfil</p>
+        </a>
+    </div>
+
+</header>
+<section class="banner">
+    <h2 class="banner-titulo">Já sabe por onde começar?</h2>
+    <p class="banner-texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+    <input type="search" class="banner-pesquisa" placeholder="Qual será sua próxima leitura?">
+</section>
+
+<section class="carrossel">
+    <h2 class="carrossel-titulo">Melhores Avaliados</h2>
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="the-promised-neverland.png" alt="Capa do livro Promissed-Neverland">
+            </div>
+            <div class="swiper-slide"><img src="battle-angel-alita.png" alt="Capa do livro Battle-Angel-Alita">
+            </div>
+            <div class="swiper-slide"><img src="edenszero-vol-037.png" alt="Capa do livro Edenszero"></div>
+            <div class="swiper-slide"><img src="orf-mono-gatar-vol-9.png" alt="Capa do livro Orf-mono-gatar"></div>
+            <div class="swiper-slide"><img src="toriko-vol-1.png" alt="Capa do livro Toriko"></div>
+            <div class="swiper-slide"><img src="dragon-ball-vol-3.png" alt="Capa do Dragon-ball Vol.3"></div>
+            <div class="swiper-slide"><img src="death-note-vol-7.png" alt="Capa do livro Death Note Vol.7"></div>
+            ...
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+
+        <div class="card-descricao">
+
+            <div class="descricao">
+                <h3 class="descricao-titulo">Talvez você também se interesse por...</h3>
+                <h2 class="descricao-titulo-livro">Ultraman vol. 09</h2>
+                <p class="paragrafo-livro">Koutaro Higashi é um jovem japonês nos Estados Unidos que sonha em ser
+                    fotógrafo. Porém, ao descobrir a existência dos alienígenas, se envolve em um incidente e quase
+                    perde a vida leia mais..</p>
+            </div>
+            <img src="ultraman-vol-9.png" height="200px" width="200px" class="descricao-imagem"
+                alt="Capa do livro UltraMan">
+        </div>
+        <div class="card-botao">
+            <ul class="botao">
+                <li class="botao-item"> <img src="Favoritos.svg" alt="icone favoritos"></li>
+                <li class="botao-item"> <img src="Compras.svg" alt="icone compras"></li>
+            </ul>
+            <a href="#" class="botao-ancora">Saiba mais</a>
+        </div>
+    </div>
+
+</section>
+
+<!------------------------------------------------SEGUNDO CARROSSEL------------------------------------------------------>
+<section class="carrossel-second">
+    <h2 class="carrossel-titulo-second">Mais Vendidos</h2>
+    <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="bleach-vol-1.png" alt="Capa do livro Bleach Vol.1"></div>
+            <div class="swiper-slide"><img src="born-cartola.png" alt="Capa do livro Born-Cartola"></div>
+            <div class="swiper-slide"><img src="dragon-ball-super-vol-1.png" alt="Capa do livro Ball-Super Vol.1">
+            </div>
+            <div class="swiper-slide"><img src="fairy-tail-vol-1.png" alt="Capa do livro Fairy-Tail Vol.1"></div>
+            <div class="swiper-slide"><img src="my-hero-academira-vol-3.png"
+                    alt="Capa do livro My Hero Academia Vol.3"></div>
+            <div class="swiper-slide"><img src="naruto-vol-1.png" alt="Capa do Naruto Vol.1"></div>
+            <div class="swiper-slide"><img src="one-piece-vol-1.png" alt="Capa do livro One Piece Vol.1"></div>
+            <div class="swiper-slide"><img src="zetman-vol-1.png" alt="Capa do livro Zetman"></div>
+            ...
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <!------------------------------------------------SEGUNDO CARD-------------------------------------------------->
+    <div class="card-second">
+
+        <div class="card-descricao-second">
+
+            <div class="descricao-second">
+                <img src="estrelas.svg" alt="estrelas avaliativas">
+                <h3 class="descricao-titulo-second">1955 - 2024</h3>
+                <h2 class="descricao-titulo-livro-second">Eterno Akira Toriyama</h2>
+                <p class="paragrafo-angular-second">foi um autor japonês de mangá, conhecido por ser o criador de séries
+                    como Dragon Ball e Dr. Slump.
+                    Toriyama é considerado um dos autores que mudou a história dos mangás ao lado de Osamu Tezuka e
+                    Rumiko Takahashi.</p>
+            </div>
+            <img src="akira-toriyama.png" height="200" width="200" class="descricao-imagem-second"
+                alt="foto do autor Akira Toriyama">
+        </div>
+    </div>
+    <!---------------------------------------------------SEGUNDO CARD---------------------------------------------------->
+</section>
+<!-------------------------------------------------------SEGUNDO CARROSEL-------------------------------------------------------->
+
+<!----TOPICOS MAIS VISITADOS----->
+<section class="topicos">
+    <h3>TÓPICOS VISITADOS RECENTEMENTE</h3>
+    <div class="topicos-categorias">
+        <a href="#" class="botao-topicos">Super-heróis</a>
+        <a href="#" class="botao-topicos">Romance</a>
+        <a href="#" class="botao-topicos">Mangá</a>
+        <a href="#" class="botao-topicos">Fantasia</a>
+        <a href="#" class="botao-topicos">Adaptações</a>
+        <a href="#" class="botao-topicos">Crimes e mistérios</a>
+        <a href="#" class="botao-topicos">Literário</a>
+        <a href="#" class="botao-topicos">Terror</a>
+    </div>
+</section>
+<!----TOPICOS MAIS VISITADOS----->
+
+<!-----------RODAPE--------->
+<footer class="rodape">
+    <h2 class="rodape-titulo">Fique por dentro das novidades!</h2>
+    <p class="rodape-texto">Cadastre seu e-mail e fique por dentro de todas as novidades e lançamentos do seus livros
+        favoritos</p>
+    <input type="email" class="rodape-pesquisa" placeholder="Cadastre seu e-mail">
+    <div class="creditos">
+        <h3>Renê P. Silva</h3>
+        <img src="" alt="">
+
+    </div>
+</footer>
+<!-----------RODAPE--------->
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
